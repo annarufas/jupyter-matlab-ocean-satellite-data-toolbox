@@ -24,7 +24,7 @@ To use the content of this repository, ensure you have the following.
 
 Open your terminal and navigate to the directory where you want to put the code of this repository. Clone this repository onto your local machine by running the following command:
 
-`git clone https://github.com/annarufas/python-matlab-satellitedata-scripts.git`
+`git clone https://github.com/annarufas/jupyter-matlab-ocean-satellite-data-toolbox`
 
 ## Available scripts in the folder `./code`
 
@@ -35,8 +35,8 @@ There are seven Jupyter Notebooks (.ipynb) to access and download time-series an
 | 1  | downloadBICEPtimeseries.ipynb   | Access BICEP time-series data of surface ocean carbon                   |
 | 2  | downloadOCCCItimeseries.ipynb   | Access OC-CCI timeseries data of ocean colour (merged sensors)          | 
 | 3  | downloadOCCCImatchups.ipynb     | Access OC-CCI matchup data of ocean colour (merged sensors)             |
-| 4  | downloadCMEMStimeseries.ipynb   | Access CMEMS L3 and L4 time-series BGC data (merged and single sensors)        |
-| 5  | downloadCMEMSmatchups.ipynb     | Access CMEMS L3 and L4 matchup BGC data (merged and single sensors)            |
+| 4  | downloadCMEMStimeseries.ipynb   | Access CMEMS L3 and L4 time-series BGC data (merged and single sensors) |
+| 5  | downloadCMEMSmatchups.ipynb     | Access CMEMS L3 and L4 matchup BGC data (merged and single sensors)     |
 | 6  | downloadEUMETSATmatchups.ipynb  | Access ESA sensors L2 matchup data of ocean colour (single sensor)      |
 | 7  | downloadNASAtimeseries.ipynb    | Access NASA sensors L3 time-series data of ocean colour (single sensor) |
 | 8  | downloadNASAmatchups.ipynb      | Access NASA sensors L3 matchup data of ocean colour (single sensor)     |    
