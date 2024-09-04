@@ -2,7 +2,7 @@
 
 This repository contains a collection of Python-based **Jupyter Notebooks** that demonstrate how to access and download satellite-based datasets from various repositories, including: 
 - **[ESA's Biological Pump and Carbon Exchange Processes (BICEP) project](https://www.bicep-project.org/Deliverables)** (surface ocean carbon-based datasets)
-- **[ESA's Ocean Colour Climate Change Initiative (OC-CCI)](https://www.oceancolour.org)** (ocean colour datasets)
+- **[ESA's Ocean Colour Climate Change Initiative (OC-CCI) project](https://www.oceancolour.org)** (ocean colour datasets)
 - **[Copernicus Marine Service (CMEMS) Data Store](https://data.marine.copernicus.eu/products)** (ocean colour, PHYS and BGC datasets)
 - **[EUMETSAT Data Store](https://user.eumetsat.int/data-access/data-store)** (ocean colour datasets)
 - **[NASA's Ocean Color website](https://oceancolor.gsfc.nasa.gov)** (ocean colour datasets)
