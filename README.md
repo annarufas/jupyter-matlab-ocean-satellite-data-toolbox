@@ -32,17 +32,17 @@ There are seven Jupyter Notebooks (.ipynb) to access and download time-series an
 
 | Num| Script name                     | Script action                                                           | 
 |----|---------------------------------|--------------------------------------------------------------------------
-| 1  | downloadBICEPtimeseries.ipynb   | Access BICEP time-series data of surface ocean carbon                   |
-| 2  | downloadOCCCItimeseries.ipynb   | Access OC-CCI timeseries data of ocean colour (merged sensors)          | 
-| 3  | downloadOCCCImatchups.ipynb     | Access OC-CCI matchup data of ocean colour (merged sensors)             |
-| 4  | downloadCMEMStimeseries.ipynb   | Access CMEMS L3 and L4 time-series BGC data (merged and single sensors) |
-| 5  | downloadCMEMSmatchups.ipynb     | Access CMEMS L3 and L4 matchup BGC data (merged and single sensors)     |
+| 1  | downloadCMEMStimeseries.ipynb   | Access CMEMS L3 and L4 time-series BGC data (merged and single sensors) |
+| 2  | downloadCMEMSmatchups.ipynb     | Access CMEMS L3 and L4 matchup BGC data (merged and single sensors)     |
+| 3  | downloadOCCCItimeseries.ipynb   | Access OC-CCI timeseries data of ocean colour (merged sensors)          | 
+| 4  | downloadOCCCImatchups.ipynb     | Access OC-CCI matchup data of ocean colour (merged sensors)             |
+| 5  | downloadBICEPtimeseries.ipynb   | Access BICEP time-series data of surface ocean carbon                   |
 | 6  | downloadEUMETSATmatchups.ipynb  | Access ESA sensors L2 matchup data of ocean colour (single sensor)      |
 | 7  | downloadNASAtimeseries.ipynb    | Access NASA sensors L3 time-series data of ocean colour (single sensor) |
-| 8  | downloadNASAmatchups.ipynb      | Access NASA sensors L3 matchup data of ocean colour (single sensor)     |    
-| 9  | ncreadTimeseriesBicepData.m     | Arrange downloaded BICEP time-series data                               |
-| 10 | ncreadTimeseriesOccciData.m     | Arrange downloaded OC-CCI time-series data                              |
-| 11 | ncreadTimeseriesCmemsData.m     | Arrange downloaded CMEMS time-series data                               |
+| 8  | downloadNASAmatchups.ipynb      | Access NASA sensors L3 matchup data of ocean colour (single sensor)     |  
+| 9  | ncreadTimeseriesCmemsData.m     | Arrange downloaded CMEMS time-series data                               | 
+| 10 | ncreadTimeseriesOccciData.m     | Arrange downloaded OC-CCI time-series data                              | 
+| 11 | ncreadTimeseriesBicepData.m     | Arrange downloaded BICEP time-series data                               |
 | 12 | ncreadTimeseriesNasaData.m      | Arrange downloaded NASA time-series data                                |
 
 ## Running the Jupyter Notebooks
