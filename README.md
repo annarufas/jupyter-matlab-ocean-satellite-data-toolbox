@@ -28,7 +28,7 @@ Open your terminal and navigate to the directory where you want to put the code 
 
 ## Available scripts in the folder `./code`
 
-There are seven Jupyter Notebooks (.ipynb) to access and download time-series and matchup data and four MATLAB scripts (.m) to process time-series data.
+There are eight Jupyter Notebooks (.ipynb) to access and download time-series and matchup data and four MATLAB scripts (.m) to minimally process time-series data.
 
 | Num| Script name                     | Script action                                                           | 
 |----|---------------------------------|--------------------------------------------------------------------------
