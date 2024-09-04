@@ -1,14 +1,14 @@
 # Tools to access satellite ocean data from main international repositories (BICEP, OC-CCI, CMEMS, EUMETSAT, NASA, NOAA)
 
 This repository contains a collection of Python-based **Jupyter Notebooks** that demonstrate how to access and download satellite-based datasets from various repositories, including: 
-- [ESA's Biological Pump and Carbon Exchange Processes (BICEP)](https://www.bicep-project.org/Deliverables) (surface ocean carbon data)
-- [ESA's Ocean Colour Climate Change Initiative (OC-CCI)](https://www.oceancolour.org) (ocean colour data)
-- [Copernicus Marine Service Data Store (CMEMS)](https://data.marine.copernicus.eu/products) (ocean colour, PHYS and BGC data)
-- [EUMETSAT Data Store](https://user.eumetsat.int/data-access/data-store) (ocean colour data)
-- [NASA's ocean color website](https://oceancolor.gsfc.nasa.gov) (ocean colour data)
-- [NOAA's CoastWatch Data Portal](https://coastwatch.noaa.gov/cwn/data-access-tools/coastwatch-data-portal.html) (ocean colour data)
+- **[ESA's Biological Pump and Carbon Exchange Processes (BICEP) project](https://www.bicep-project.org/Deliverables)** (surface ocean carbon-based datasets)
+- **[ESA's Ocean Colour Climate Change Initiative (OC-CCI)](https://www.oceancolour.org)** (ocean colour datasets)
+- **[Copernicus Marine Service (CMEMS) Data Store](https://data.marine.copernicus.eu/products)** (ocean colour, PHYS and BGC datasets)
+- **[EUMETSAT Data Store](https://user.eumetsat.int/data-access/data-store)** (ocean colour datasets)
+- **[NASA's Ocean Color website](https://oceancolor.gsfc.nasa.gov)** (ocean colour datasets)
+- **[NOAA's CoastWatch Data Portal](https://coastwatch.noaa.gov/cwn/data-access-tools/coastwatch-data-portal.html)** (ocean colour datasets)
 
-These notebooks provide examples for downloading both **time-series** and **matchup** data, guiding you through the specific procedures required by each repository. The scripts are configured to download specific datasets based on my research needs, but you can use them as templates and modify the code to suit your own area of study and datasets.
+These notebooks provide examples for downloading both **time-series** and **matchup** data, guiding you through the distinct coding procedures required by each repository. The scripts are pre-configured to download datasets tailored to my research needs (area of study and observations), but they can be easily adapted to suit your specific research focus and dataset requirements.
 
 Additionally, **MATLAB** scripts are included to perform minimal processing on the downloaded datasets (e.g., arranging data into a structured format for further analysis in MATLAB).
 
