@@ -115,9 +115,9 @@ That file is stored in this repository under `./doc`.
 
 ### Instructions for setting up `thomas`
 
-[EUMETSAT's Data Store](https://eumetsatspace.atlassian.net/wiki/spaces/DSDS/pages/315785276/Accessing+the+Data+Store) offers different [ways](https://eumetsatspace.atlassian.net/wiki/spaces/DSDS/pages/315818088/Using+the+APIs) to access and interact with the data in order to refine searches. Many of those are supported by the EUMETSAT Data Access Client [`eumdac`](https://eumetsatspace.atlassian.net/wiki/spaces/DSDS/pages/2016280587/Using+EUMDAC). We are going to use [`eumdac`](https://eumetsatspace.atlassian.net/wiki/spaces/EUMDAC/overview) to access, subset and download L2 data for matchups. EUMETSAT has created the [ThoMaS](https://training.eumetsat.int/pluginfile.php/49380/course/section/4746/ThoMaS.pdf) (Tool to generate Matchups of OC products with Sentinel-3/OLCI) toolkit for automating OLCI ocean colour data acquisition and match-up analysis. It is an automated (API) method to search for and retrieve products. You will need to downlaod ThoMaS. Once downloaded, please place it in the `./resources/external/` directory. There are two ways to download it. Either the Git way:
+[EUMETSAT's Data Store](https://eumetsatspace.atlassian.net/wiki/spaces/DSDS/pages/315785276/Accessing+the+Data+Store) offers different [ways](https://eumetsatspace.atlassian.net/wiki/spaces/DSDS/pages/315818088/Using+the+APIs) to access and interact with their data in order to refine searches. Many of those are supported by the EUMETSAT Data Access Client [`eumdac`](https://eumetsatspace.atlassian.net/wiki/spaces/DSDS/pages/2016280587/Using+EUMDAC). We are going to use [`eumdac`](https://eumetsatspace.atlassian.net/wiki/spaces/EUMDAC/overview) to access, subset and download L2 data for matchups. EUMETSAT has created the [ThoMaS](https://training.eumetsat.int/pluginfile.php/49380/course/section/4746/ThoMaS.pdf) (Tool to generate Matchups of OC products with Sentinel-3/OLCI) toolkit for automating Sentinel-3 OLCI ocean colour data acquisition and matchup analysis. It is an automated (API) method to search for and retrieve products. You will need to downlaod ThoMaS and place it in the `./resources/external/` directory. There are two ways to download it. Either the Git way:
 
-`cd ./code/internal/`
+`cd ./resources/external/`
 
 `mkdir ThoMaS`
 
@@ -129,11 +129,11 @@ or directly downloading the code from the git repository, at
 
 `https://gitlab.eumetsat.int/eumetlab/oceans/ocean-science-studies/ThoMaS`
 
-To create the ThoMaS conda environment, follow these steps:
+To create the ThoMaS Conda environment, follow these steps:
 
 1. In your terminal, type the following:
 
-`cd ./code/internal/ThoMaS/`
+`cd ./resources/external/ThoMaS/`
 
 `conda env create -f environment.yml -n thomas`
 
