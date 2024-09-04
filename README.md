@@ -1,4 +1,4 @@
-# Tools to access satellite ocean data from main international repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA, NOAA)
+# Tools to access satellite ocean data from main international repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean Color, NOAA CoastWatch)
 
 This repository contains a collection of Python-based **Jupyter Notebooks** that demonstrate how to access and download satellite-based datasets from various repositories, including: 
 - **[Copernicus Marine Service (CMEMS) Data Store](https://data.marine.copernicus.eu/products)** (ocean colour, PHYS and BGC datasets)
