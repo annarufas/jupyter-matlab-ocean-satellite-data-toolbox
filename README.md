@@ -143,12 +143,7 @@ To create the ThoMaS Conda environment, follow these steps:
 
 3. Obtain EUMETSAT's consumer key and secret. In the EUMETSAT Data Store, create an EO Portal user and get API keys (consumer_key,consumer_secret). These are fixed for each user.
 
-
-## Author
-
-* [**Anna Rufas**](mailto://Anna.RufasBlanco@earth.ox.ac.uk)
-
 ## Acknowledgments
 
-This work was conducted as part of my postdoctoral research project at the University of Oxford with the Agile Initiative and funded by the Natural Environment Research Council (NERC) grant NE/W004976/1. I would also like to acknowledge the invaluable support from the Copernicus Marine Service helpdesk officers and the training provided during the 2023 Trevor Platt Science Foundation Symposium.
+This work was conducted as part of my postdoctoral research project at the University of Oxford with the Agile Initiative and funded by the Natural Environment Research Council (NERC) grant NE/W004976/1. I would also like to acknowledge the invaluable support from the Copernicus Marine Service helpdesk officers and the training provided during the 2023 Trevor Platt Science Foundation (TPSF) Symposium.
 
