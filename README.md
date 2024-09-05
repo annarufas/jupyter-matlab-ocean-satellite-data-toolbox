@@ -1,6 +1,6 @@
 # Tools to access satellite ocean data from main repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean Color and NOAA CoastWatch)
 
-![Data download page of well-known ocean satellite data repositories](./figures/README_cover.png)
+![Data download page of well-known ocean satellite data repositories](https://github.com/user-attachments/assets/9b54e86a-1366-44d2-ba1a-2390739000ac)
 
 Are you looking to access subsets of ocean colour-related satellite data —such as chlorophyll concentration, light attenuation coefficients, euphotic layer depth, or net primary production— but dreading the time it takes to find the data in repositories and write custom download scripts? This repository simplifies the process by providing Python-based **Jupyter Notebooks** that demonstrate how to access and download ocean satellite datasets from some of the most widely used repositories:
 - **[Copernicus Marine Service (CMEMS) Data Store](https://data.marine.copernicus.eu/products)**, L3 and L4 ocean colour, physical (PHYS) and biogeochemical (BGC) datasets, from merged and single sensors
@@ -36,9 +36,9 @@ There are eight Jupyter Notebooks (.ipynb) to access and download time-series an
 |----|---------------------------------|--------------------------------------------------------------------------
 | 1  | downloadCMEMStimeseries.ipynb   | Access CMEMS L3 and L4 time-series BGC data (merged and single sensors) |
 | 2  | downloadCMEMSmatchups.ipynb     | Access CMEMS L3 and L4 matchup BGC data (merged and single sensors)     |
-| 3  | downloadOCCCItimeseries.ipynb   | Access OC-CCI timeseries data of ocean colour (merged sensors)          | 
-| 4  | downloadOCCCImatchups.ipynb     | Access OC-CCI matchup data of ocean colour (merged sensors)             |
-| 5  | downloadBICEPtimeseries.ipynb   | Access BICEP time-series data of surface ocean carbon                   |
+| 3  | downloadOCCCItimeseries.ipynb   | Access OC-CCI L3 timeseries data of ocean colour (merged sensors)       | 
+| 4  | downloadOCCCImatchups.ipynb     | Access OC-CCI L3 matchup data of ocean colour (merged sensors)          |
+| 5  | downloadBICEPtimeseries.ipynb   | Access BICEP L4 time-series data of surface ocean carbon                |
 | 6  | downloadEUMETSATmatchups.ipynb  | Access ESA sensors L2 matchup data of ocean colour (single sensor)      |
 | 7  | downloadNASAtimeseries.ipynb    | Access NASA sensors L3 time-series data of ocean colour (single sensor) |
 | 8  | downloadNASAmatchups.ipynb      | Access NASA sensors L3 matchup data of ocean colour (single sensor)     |  
