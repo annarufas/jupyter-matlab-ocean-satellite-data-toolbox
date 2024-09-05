@@ -1,14 +1,16 @@
-# Tools to access satellite ocean data from main international repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean Color, NOAA CoastWatch)
+# Tools to access satellite ocean data from main repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean Color and NOAA CoastWatch)
 
-This repository contains a collection of Python-based **Jupyter Notebooks** that demonstrate how to access and download satellite-based datasets from various repositories, including: 
-- **[Copernicus Marine Service (CMEMS) Data Store](https://data.marine.copernicus.eu/products)** (ocean colour, PHYS and BGC datasets)
-- **[ESA's Ocean Colour Climate Change Initiative (OC-CCI) project](https://www.oceancolour.org)** (ocean colour datasets)
-- **[ESA's Biological Pump and Carbon Exchange Processes (BICEP) project](https://www.bicep-project.org/Deliverables)** (surface ocean carbon-based datasets)
-- **[EUMETSAT Data Store](https://user.eumetsat.int/data-access/data-store)** (ocean colour datasets)
-- **[NASA's Ocean Color website](https://oceancolor.gsfc.nasa.gov)** (ocean colour datasets)
-- **[NOAA's CoastWatch Data Portal](https://coastwatch.noaa.gov/cwn/data-access-tools/coastwatch-data-portal.html)** (ocean colour datasets)
+![Data download page of well-known ocean satellite data repositories](./figures/README_cover.png)
 
-These notebooks provide examples for downloading both **time-series** and **matchup** data, guiding you through the distinct coding procedures required by each repository. The scripts are pre-configured to download datasets tailored to my research needs (area of study and observations), but they can be easily adapted to suit your specific research focus and dataset requirements.
+Are you looking to access subsets of ocean colour-related satellite data —such as chlorophyll concentration, light attenuation coefficients, euphotic layer depth, or net primary production— but dreading the time it takes to find the data in repositories and write custom download scripts? This repository simplifies the process by providing Python-based **Jupyter Notebooks** that demonstrate how to access and download ocean satellite datasets from some of the most widely used repositories:
+- **[Copernicus Marine Service (CMEMS) Data Store](https://data.marine.copernicus.eu/products)**, L3 and L4 ocean colour, physical (PHYS) and biogeochemical (BGC) datasets, from merged and single sensors
+- **[ESA Ocean Colour Climate Change Initiative (OC-CCI) project](https://www.oceancolour.org)**, L3 ocean colour datasets from merged sensors
+- **[ESA Biological Pump and Carbon Exchange Processes (BICEP) project](https://www.bicep-project.org/Deliverables)**, L4 surface ocean carbon-based datasets
+- **[EUMETSAT Data Store](https://user.eumetsat.int/data-access/data-store)**, L2 ocean colour datasets from ESA sensors
+- **[NASA Ocean Color website](https://oceancolor.gsfc.nasa.gov)**, L3 ocean colour datasets from NASA sensors
+- **[NOAA CoastWatch Data Portal](https://coastwatch.noaa.gov/cwn/data-access-tools/coastwatch-data-portal.html)**, L3 ocean colour datasets from single sensors
+
+The notebooks provide examples for downloading both **time-series** and **matchup** data, guiding you through the distinct coding procedures required by each repository. The scripts are pre-configured to download datasets tailored to my research needs (area of study and observations), but they can be easily adapted to suit your specific research focus and dataset requirements.
 
 Additionally, **MATLAB** scripts are included to perform minimal processing on the downloaded datasets (e.g., arranging data into a structured format for further analysis in MATLAB).
 
