@@ -12,7 +12,7 @@ Are you looking to access subsets of ocean colour-related satellite data —such
 
 The notebooks provide examples for downloading both **time-series** and **matchup** data, guiding you through the distinct coding procedures required by each repository. The scripts are pre-configured to download datasets tailored to my research needs (area of study and observations), but they can be easily adapted to suit your specific research focus and dataset requirements.
 
-Additionally, **MATLAB** scripts are included to perform minimal processing on the downloaded datasets (e.g., arranging data into a structured format for further analysis in MATLAB).
+Additionally, **MATLAB** scripts are included to perform minimal processing on the downloaded datasets (e.g., arranging data into a structured format for further analysis and plotting in MATLAB).
 
 ## Requirements
 
@@ -59,6 +59,8 @@ An **environment** consists of a specific Python version and various packages. T
 - **Miniconda**. Requires about 400 MB disk space, and it contains only a few basic packages. 
 
 When you install Anaconda, you get two things: the Conda (the package and environment management system), and the so-called “root environment”. Then, Conda creates a root environment that contains two things: a certain version of Python, and some basic packages. Besides the root environment, you can create as many additional environments as you want. These additional environments can contain different versions of Python and different packages.
+
+If you are new to Python, I recommend the [Python for Atmosphere and Ocean Scientists repository](https://github.com/carpentrieslab/python-aos-lesson), with examples on how to create environments and use Anaconda.
 
 ### Instructions for setting up `bashenv`
 
