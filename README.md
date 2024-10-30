@@ -19,8 +19,8 @@ Additionally, **MATLAB** scripts are included to perform minimal processing on t
 To use the content of this repository, ensure you have the following.
 
 - Latest [**Anaconda** Python distribution](https://www.anaconda.com/) installed for your operating system, which includes **Jupyter Notebooks** and the environment manager **Conda**. From Anaconda, you can launch **Jupyter Lab**, a platform that will open Jupyter Notebooks in a browser window.
-- [git](https://github.com/git-guides/install-git), which in MacOS you can install using Homebrew by typing in your terminal `brew install git`.
-- MATLAB version R2021a or later installed. 
+- [**git**](https://github.com/git-guides/install-git), which in MacOS you can install using Homebrew by typing in your terminal `brew install git`.
+- [**MATLAB**](https://mathworks.com/products/matlab.html) version R2021a or later installed. 
 
 ## Installing this repository
 
