@@ -28,7 +28,7 @@ Open your terminal and navigate to the directory where you want to put the code 
 
 `git clone https://github.com/annarufas/jupyter-matlab-ocean-satellite-data-toolbox`
 
-## Available scripts in the folder `./code`
+## Available scripts in the folder `./code/`
 
 There are eight Jupyter Notebooks (.ipynb) to access and download time-series and matchup data and four MATLAB scripts (.m) to minimally process time-series data.
 
@@ -42,10 +42,10 @@ There are eight Jupyter Notebooks (.ipynb) to access and download time-series an
 | 6  | downloadEUMETSATmatchups.ipynb  | Access ESA sensors L2 matchup data of ocean colour (single sensor)      |
 | 7  | downloadNASAtimeseries.ipynb    | Access NASA sensors L3 time-series data of ocean colour (single sensor) |
 | 8  | downloadNASAmatchups.ipynb      | Access NASA sensors L3 matchup data of ocean colour (single sensor)     |  
-| 9  | ncreadTimeseriesCmemsData.m     | Arrange downloaded CMEMS time-series data                               | 
-| 10 | ncreadTimeseriesOccciData.m     | Arrange downloaded OC-CCI time-series data                              | 
-| 11 | ncreadTimeseriesBicepData.m     | Arrange downloaded BICEP time-series data                               |
-| 12 | ncreadTimeseriesNasaData.m      | Arrange downloaded NASA time-series data                                |
+| 9  | ncreadCMEMStimeseries.m         | Arrange downloaded CMEMS time-series data                               | 
+| 10 | ncreadOCCCItimeseries.m         | Arrange downloaded OC-CCI time-series data                              | 
+| 11 | ncreadBICEPtimeseries.m         | Arrange downloaded BICEP time-series data                               |
+| 12 | ncreadNASAtimeseries.m          | Arrange downloaded NASA time-series data                                |
 
 ## Running the Jupyter Notebooks
 
