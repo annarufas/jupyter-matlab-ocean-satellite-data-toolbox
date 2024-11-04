@@ -1,4 +1,4 @@
-# Tools to access satellite ocean data from main repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean Color and NOAA CoastWatch)
+# Tools to Access Satellite Ocean Data from Main Repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean Color and NOAA CoastWatch)
 
 ![Data download page of well-known ocean satellite data repositories](https://github.com/user-attachments/assets/9b54e86a-1366-44d2-ba1a-2390739000ac)
 
@@ -22,15 +22,15 @@ To use the content of this repository, ensure you have the following.
 - [**git**](https://github.com/git-guides/install-git), which in MacOS you can install using Homebrew by typing in your terminal `brew install git`.
 - [**MATLAB**](https://mathworks.com/products/matlab.html) version R2021a or later installed. 
 
-## Installing this repository
+## Installing this Repository
 
 Open your terminal and navigate to the directory where you want to put the code of this repository. Clone this repository onto your local machine by running the following command:
 
 `git clone https://github.com/annarufas/jupyter-matlab-ocean-satellite-data-toolbox`
 
-## Available scripts in the folder `./code/`
+## Available Scripts
 
-There are eight Jupyter Notebooks (.ipynb) to access and download time-series and matchup data and four MATLAB scripts (.m) to minimally process time-series data.
+In the folder `./code`, there are eight **Jupyter Notebooks** (`.ipynb`) to access and download time-series and matchup data and four **MATLAB** scripts (`.m`) to minimally process time-series data.
 
 | Num| Script name                     | Script action                                                           | 
 |----|---------------------------------|--------------------------------------------------------------------------
@@ -62,7 +62,7 @@ When you install Anaconda, you get two things: the Conda (the package and enviro
 
 If you are new to Python, I recommend the [Python for Atmosphere and Ocean Scientists repository](https://github.com/carpentrieslab/python-aos-lesson), with examples on how to create environments and use Anaconda.
 
-### Instructions for setting up `bashenv`
+### Instructions for Setting up `bashenv`
 
 `bashenv` is an environment that will allow us to execute Bash commands in Jupyter Notebooks. By default, Jupyter Notebook does not come with Bash installed. Therefore, to use Bash commands in Jupyter Notebook, you need to install the Bash kernel. Here is how to do it.
 
@@ -92,7 +92,7 @@ Recommended to use the same kernel name as the environment name here (i.e. 'bash
 
 6. Launch `jupyter-lab`. In your terminal, type `jupyter-lab` (alternatively, launch it from Anaconda), which will launch Jupyter Lab in a browser window. Once Jupyter Lab is open, you can select your conda environment as your kernel. To do this, click on ‘Kernel’ > ‘Change kernel’ > 'bashenv'.
 
-### Instructions for setting up `copernicusmarine`
+### Instructions for Setting up `copernicusmarine`
 
 The [Copernicus Marine Toolbox](https://help.marine.copernicus.eu/en/articles/7949409-copernicus-marine-toolbox-introduction) is the tool necessary to download any product from the [Copernicus Marine Data Store](https://data.marine.copernicus.eu/products) as of March 2024. These instructions, based on the Copernicus Marine Toolbox [installation guide](https://help.marine.copernicus.eu/en/articles/7970514-copernicus-marine-toolbox-installation), will install in your machine the Copernicus Marine Toolbox python environment, `copernicusmarine`, and will set you up using the python environment in Jupyter Lab, a platform that will open Jupyter Notebooks in a browser window.
 
@@ -117,7 +117,7 @@ That file is stored in this repository under `./doc`.
 
 4. Follow steps 4–6 as in section "Instructions for setting up `bashenv`".
 
-### Instructions for setting up `thomas`
+### Instructions for Setting up `thomas`
 
 [EUMETSAT's Data Store](https://eumetsatspace.atlassian.net/wiki/spaces/DSDS/pages/315785276/Accessing+the+Data+Store) offers different [ways](https://eumetsatspace.atlassian.net/wiki/spaces/DSDS/pages/315818088/Using+the+APIs) to access and interact with their data in order to refine searches. Many of those are supported by the EUMETSAT Data Access Client [`eumdac`](https://eumetsatspace.atlassian.net/wiki/spaces/DSDS/pages/2016280587/Using+EUMDAC). We are going to use [`eumdac`](https://eumetsatspace.atlassian.net/wiki/spaces/EUMDAC/overview) to access, subset and download L2 data for matchups. EUMETSAT has created the [ThoMaS](https://training.eumetsat.int/pluginfile.php/49380/course/section/4746/ThoMaS.pdf) (Tool to generate Matchups of OC products with Sentinel-3/OLCI) toolkit for automating Sentinel-3 OLCI ocean colour data acquisition and matchup analysis. It is an automated (API) method to search for and retrieve products. You will need to downlaod ThoMaS and place it in the `./resources/external/` directory. There are two ways to download it. Either the Git way:
 
