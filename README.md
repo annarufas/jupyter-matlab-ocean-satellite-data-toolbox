@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14193549.svg)](https://doi.org/10.5281/zenodo.14193549)
+
 # Tools to Access Satellite Ocean Data from Main Repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean Color and NOAA CoastWatch)
 
 ![Data download page of well-known ocean satellite data repositories](https://github.com/user-attachments/assets/9b54e86a-1366-44d2-ba1a-2390739000ac)
@@ -146,6 +148,12 @@ To create the ThoMaS Conda environment, follow these steps:
 2. Follow steps 4–6 as in section "Instructions for setting up `bashenv`".
 
 3. Obtain EUMETSAT's consumer key and secret. In the EUMETSAT Data Store, create an EO Portal user and get API keys (consumer_key,consumer_secret). These are fixed for each user.
+
+## Cite as
+
+If you use this project in your research, please cite it as:
+
+> Rufas, A. (2024). annarufas/jupyter-matlab-ocean-satellite-data-toolbox: Submission to NERC Data Centre (v1.1) [software]. Zenodo. https://doi.org/10.5281/zenodo.14193549.
 
 ## Acknowledgments
 
