@@ -165,7 +165,7 @@ To create the ThoMaS Conda environment, follow these steps:
 
 If you use this project in your research, please cite it as:
 
-> Rufas, A. (2025). annarufas/jupyter-matlab-ocean-satellite-data-toolbox: Tools to Access Satellite Ocean Data from Main Repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean Color and NOAA CoastWatch) (v2.0) [collection]. Zenodo. https://doi.org/10.5281/zenodo.14193549.
+> Rufas, A. (2025). annarufas/jupyter-matlab-ocean-satellite-data-toolbox: Tools to Access Satellite Ocean Data from Main Repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean Color and NOAA CoastWatch) (v2.0) [collection]. Zenodo. https://doi.org/10.5281/zenodo.14193548.
 
 ## Acknowledgments
 
