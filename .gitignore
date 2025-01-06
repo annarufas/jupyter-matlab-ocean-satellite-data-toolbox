@@ -1,0 +1,11 @@
+resources/external/*
+code/jupyter/notinuse
+code/matlab/*.asv
+data/processed/*
+data/raw/CMEMS_data/*
+data/raw/BICEP_data/*
+data/raw/NASA_data/*
+data/raw/OCCCI_data/*
+README_cover.png
+README_cover.pptx
+.DS_Store
