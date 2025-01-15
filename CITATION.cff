@@ -2,24 +2,19 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
+message: >-
+  If you use this repository in your research, please cite
+  it as:
+authors:
+  - given-names: Anna
+    family-names: Rufas
+    orcid: 'https://orcid.org/0000-0003-3800-8879'
 title: >-
   annarufas/jupyter-matlab-ocean-satellite-data-toolbox:
   Tools to Access Satellite Ocean Data from Main
   Repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean
   Color and NOAA CoastWatch)
-message: >-
-  If you use this repository in your research, please cite
-  it as:
-type: software
-authors:
-  - given-names: Anna
-    family-names: Rufas
-    email: Anna.RufasBlanco@earth.ox.ac.uk
-    affiliation: University of Oxford
-    orcid: 'https://orcid.org/0000-0003-3800-8879'
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.14605576
-license: MIT
-version: '2.1'
+type: software-code
+version: 2.1
+doi: 10.5281/zenodo.14605576
 date-released: '2025-01-15'
