@@ -19,7 +19,7 @@
 % to your needs.                                                          %
 %                                                                         %
 % The script has 5 sections:                                              %
-%   Section 1 - Define the footprint of our area of study                 %                                                %
+%   Section 1 - Define the footprint of our area of study                 %
 %   Section 2 - Read .nc files from BICEP and store data into a .mat file %
 %   Section 3 - Read .nc files from NASA and store data into a .mat file  %
 %   Section 4 - Read .nc files from CMEMS and store data into a .mat file %
@@ -54,9 +54,9 @@ fullPathGcsSiteShapefileDir   = fullfile('.','data','interim','coords_endurance'
 fullPathAreaStudyShapefileDir = fullfile('.','data','interim','coords_boundarybox');
 
 % Output shapefile names
-shapefileNameGcsSite          = 'endurance_2023';
-shapefileNameAreaStudy        = 'bbox_100km'; % bounding box = 2 x radiusAreaStudy
-fileNameGcsSiteCentralCoords  = 'endurance_centre.mat';
+shapefileNameGcsSite         = 'endurance_2023';
+shapefileNameAreaStudy       = 'bbox_100km'; % bounding box = 2 x radiusAreaStudy
+fileNameGcsSiteCentralCoords = 'endurance_centre.mat';
 
 % Create shapefiles for the GCS site and the study area
 createAreaStudyShapefile(radiusAreaStudy,...
