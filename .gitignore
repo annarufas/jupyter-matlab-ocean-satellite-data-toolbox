@@ -1,5 +1,6 @@
 resources/external/*
 code/jupyter/notinuse
+code/jupyter/.ipynb_checkpoints/
 code/matlab/*.asv
 data/processed/*
 data/raw/CMEMS_data/*
