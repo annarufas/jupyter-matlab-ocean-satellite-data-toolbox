@@ -1,8 +1,9 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14193549.svg)](https://doi.org/10.5281/zenodo.14193549)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14193548.svg)](https://doi.org/10.5281/zenodo.14193548)
 
 # Tools to Access Satellite Ocean Data from Main Repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean Color and NOAA CoastWatch)
 
 ![Data download page of well-known ocean satellite data repositories](https://github.com/user-attachments/assets/9b54e86a-1366-44d2-ba1a-2390739000ac)
+*Landing page for downloading data from well-known ocean satellite data repositories.*
 
 Are you looking to access subsets of ocean colour-related satellite data —such as chlorophyll concentration, light attenuation coefficients, euphotic layer depth, or net primary production— but dreading the time it takes to find the data in repositories and write custom download scripts? This repository simplifies the process by providing Python-based **Jupyter Notebooks** that demonstrate how to access and download ocean satellite datasets from some of the most widely used repositories:
 - **[Copernicus Marine Service (CMEMS) Data Store](https://data.marine.copernicus.eu/products)**, L3 and L4 ocean colour, physical (PHYS) and biogeochemical (BGC) datasets, from merged and single sensors
@@ -17,6 +18,10 @@ The notebooks provide examples for downloading both **time-series** and **matchu
 Additionally, **MATLAB** scripts are included to perform minimal processing on the downloaded datasets (e.g., arranging data into a structured format for further analysis and plotting in MATLAB).
 
 ## Requirements
+
+### Requirements
+
+*⚠️ Note: These instructions are designed and tested specifically for macOS. While they may work on other operating systems (e.g., Windows or Linux), you might need to adapt the installation code accordingly.*
 
 To use the content of this repository, ensure you have the following installed in your computer.
 
@@ -48,23 +53,23 @@ Open your terminal and navigate to the directory where you want to put the code 
 
 ## Scripts Overview
 
-In the folder `./code/`, there are eight **Jupyter Notebooks** (`.ipynb`) to access and download time-series and matchup data and five **MATLAB** scripts (`.m`) to minimally process time-series data.
+In the folder `./code/`, there are eight **Jupyter Notebooks** (`.ipynb`) to access and download time-series and matchup data and five **MATLAB** scripts (`.m`) to minimally process time-series data. Run the scripts in the following order:
 
-| Num| Script name                     | Script action                                                           | 
-|----|---------------------------------|--------------------------------------------------------------------------
-| 1  | downloadCMEMStimeseries.ipynb   | Access CMEMS L3 and L4 time-series BGC data (merged and single sensors) |
-| 2  | downloadCMEMSmatchups.ipynb     | Access CMEMS L3 and L4 matchup BGC data (merged and single sensors)     |
-| 3  | downloadOCCCItimeseries.ipynb   | Access OC-CCI L3 timeseries data of ocean colour (merged sensors)       | 
-| 4  | downloadOCCCImatchups.ipynb     | Access OC-CCI L3 matchup data of ocean colour (merged sensors)          |
-| 5  | downloadBICEPtimeseries.ipynb   | Access BICEP L4 time-series data of surface ocean carbon                |
-| 6  | downloadEUMETSATmatchups.ipynb  | Access ESA sensors L2 matchup data of ocean colour (single sensor)      |
-| 7  | downloadNASAtimeseries.ipynb    | Access NASA sensors L3 time-series data of ocean colour (single sensor) |
-| 8  | downloadNASAmatchups.ipynb      | Access NASA sensors L3 matchup data of ocean colour (single sensor)     |  
-| 9  | ncreadCMEMStimeseries.m         | Arrange downloaded CMEMS time-series data                               | 
-| 10 | ncreadOCCCItimeseries.m         | Arrange downloaded OC-CCI time-series data                              | 
-| 11 | ncreadBICEPtimeseries.m         | Arrange downloaded BICEP time-series data                               |
-| 12 | ncreadNASAtimeseries.m          | Arrange downloaded NASA time-series data                                |
-| 13 | main.m                          | Master script that executes the above MATLAB functions |
+| Order| Script name                     | Script action                                                                         | 
+|------|---------------------------------|---------------------------------------------------------------------------------------
+| 1    | downloadCMEMStimeseries.ipynb   | Notebook to download CMEMS L3 and L4 time-series BGC data (merged and single sensors) |
+| 2    | downloadCMEMSmatchups.ipynb     | Notebook to download CMEMS L3 and L4 matchup BGC data (merged and single sensors)     |
+| 3    | downloadOCCCItimeseries.ipynb   | Notebook to download OC-CCI L3 time-series data of ocean colour (merged sensors)       | 
+| 4    | downloadOCCCImatchups.ipynb     | Notebook to download OC-CCI L3 matchup data of ocean colour (merged sensors)          |
+| 5    | downloadBICEPtimeseries.ipynb   | Notebook to download BICEP L4 time-series data of surface ocean carbon                |
+| 6    | downloadEUMETSATmatchups.ipynb  | Notebook to download ESA sensors L2 matchup data of ocean colour (single sensor)      |
+| 7    | downloadNASAtimeseries.ipynb    | Notebook to download NASA sensors L3 time-series data of ocean colour (single sensor) |
+| 8    | downloadNASAmatchups.ipynb      | Notebook to download NASA sensors L3 matchup data of ocean colour (single sensor)     |  
+| 9    | main.m                          |  Main entry point for running the MATLAB functions below (*make sure Notebooks 1, 3, 5 and 7 have been run before executing*) |
+| 10   | ncreadCMEMStimeseries.m         | MATLAB function that arranges downloaded CMEMS time-series data                               | 
+| 11   | ncreadOCCCItimeseries.m         | MATLAB function that arranges downloaded OC-CCI time-series data                              | 
+| 12   | ncreadBICEPtimeseries.m         | MATLAB function that arranges downloaded BICEP time-series data                               |
+| 13   | ncreadNASAtimeseries.m          | MATLAB function that arranges downloaded NASA time-series data                                |
 
 ## Running the Jupyter Notebooks
 
@@ -160,12 +165,6 @@ To create the ThoMaS Conda environment, follow these steps:
 2. Follow steps 4–6 as in section "Instructions for setting up `bashenv`".
 
 3. Obtain EUMETSAT's consumer key and secret. In the EUMETSAT Data Store, create an EO Portal user and get API keys (consumer_key,consumer_secret). These are fixed for each user.
-
-## Cite as
-
-If you use this project in your research, please cite it as:
-
-> Rufas, A. (2025). annarufas/jupyter-matlab-ocean-satellite-data-toolbox: Tools to Access Satellite Ocean Data from Main Repositories (CMEMS, OC-CCI, BICEP, EUMETSAT, NASA Ocean Color and NOAA CoastWatch) (v2.0) [collection]. Zenodo. https://doi.org/10.5281/zenodo.14193548.
 
 ## Acknowledgments
 
