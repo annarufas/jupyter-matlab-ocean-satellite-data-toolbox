@@ -19,8 +19,6 @@ Additionally, **MATLAB** scripts are included to perform minimal processing on t
 
 ## Requirements
 
-### Requirements
-
 *⚠️ Note: These instructions are designed and tested specifically for macOS. While they may work on other operating systems (e.g., Windows or Linux), you might need to adapt the installation code accordingly.*
 
 To use the content of this repository, ensure you have the following installed in your computer.
